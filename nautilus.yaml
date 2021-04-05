@@ -1,19 +1,76 @@
 scheme: "Nautilus"
 author: "Alvaro Muñoz (alvaro@pwntester.com), https://github.com/pwntester/nautilus.nvim"
-base00: "0b1f41"
-base01: "11305f"
-base02: "3a5488"
-base03: "80b2d6"
-base04: "3aa3e9"
-base05: "abb2bf"
-base06: "b6bdca"
-base07: "c8ccd4"
-base08: "f04c75"
-base09: "ffae57"
-base0A: "ffcc66"
-base0B: "98c379"
-base0C: "56b6c2"
-base0D: "01bfef"
-base0E: "c678dd"
-base0F: "be5046"
-base10: "213554"
+variant: "base64"
+
+base00: "0b1f41" # Default Background
+base01: "11305f" # Lighter Background (Used for status bars)
+base02: "3a5488" # Selection Background
+base03: "80b2d6" # Comments, Invisibles, Line Highlighting
+base04: "3aa3e9" # Dark Foreground (Used for status bars)
+base05: "abb2bf" # Default Foreground, Caret, Delimiters, Operators
+base06: "b6bdca" # Light Foreground (Not often used)
+base07: "c8ccd4" # Light Background (Not often used)
+base08: "f04c75" # Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
+base09: "ffae57" # Integers, Boolean, Constants, XML Attributes, Markup Link Url
+base0A: "ffcc66" # Classes, Markup Bold, Search Text Background
+base0B: "98c379" # Strings, Inherited Class, Markup Code, Diff Inserted
+base0C: "56b6c2" # Support, Regular Expressions, Escape Characters, Markup Quotes
+base0D: "01bfef" # Functions, Methods, Attribute IDs, Headings
+base0E: "c678dd" # Keywords, Storage, Selector, Markup Italic, Diff Changed
+base0F: "be5046" # Deprecated, Opening/Closing Embedded Language Tags, e.g. `<?php ?>`
+
+#
+# reserved for extending base16
+#
+
+base10: "c0c0c0" #
+base11: "c0c0c0" #
+base12: "c0c0c0" #
+base13: "c0c0c0" #
+base14: "c0c0c0" #
+base15: "c0c0c0" #
+base16: "c0c0c0" #
+base17: "c0c0c0" #
+base18: "c0c0c0" #
+base19: "c0c0c0" #
+base1A: "c0c0c0" #
+base1B: "c0c0c0" #
+base1C: "c0c0c0" #
+base1D: "c0c0c0" #
+base1E: "c0c0c0" #
+base1F: "c0c0c0" #
+
+base20: "c0c0c0" # sign 0 - lowest priority (hardly visible)
+base21: "c0c0c0" # sign 1
+base22: "c0c0c0" # sign 2
+base23: "c0c0c0" # sign 3
+base24: "c0c0c0" # sign 4
+base25: "c0c0c0" # sign 5
+base26: "c0c0c0" # sign 6
+base27: "c0c0c0" # sign 7 - highest priority (in your face error message)
+base28: "c0c0c0" # reserved
+base29: "c0c0c0" # reserved
+base2A: "c0c0c0" # reserved
+base2B: "c0c0c0" # reserved
+base2C: "c0c0c0" # reserved
+base2D: "c0c0c0" # reserved
+base2E: "c0c0c0" # reserved
+base2F: "c0c0c0" # reserved
+
+base30: "c0c0c0" #
+base31: "c0c0c0" #
+base32: "c0c0c0" #
+base33: "c0c0c0" #
+base34: "c0c0c0" #
+base35: "c0c0c0" #
+base36: "c0c0c0" #
+base37: "c0c0c0" #
+base38: "c0c0c0" #
+base39: "c0c0c0" #
+base3A: "c0c0c0" #
+base3B: "c0c0c0" #
+base3C: "c0c0c0" #
+base3D: "c0c0c0" #
+base3E: "c0c0c0" #
+base3F: "c0c0c0" #
+
